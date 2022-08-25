@@ -39,6 +39,7 @@ do
     fi
     if [[ $html =~ "Oops! Page not found" ]]; then
         echo 404
+	#echo genius.com/$r
         exit
     fi
 
